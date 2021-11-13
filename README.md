@@ -1,7 +1,7 @@
 # Bell_tech_interview_rest_service
   
 ## Reasons behing the architecture & API choices:
-For this interview project, I decided to go with Python, a coding language of choice as it is one of my favourite. I find Python to be very straight forward and easy to use. As for the framework to implement the API, I used the Flask web framework. Not really a reason why I chose Flask over Django, just thought it would be easier for rapid development. I used the flask_restful library to implement my REST API to query data from the csv.   
+For this interview project, I decided to go with Python, a coding language of choice as it is one of my favourite. I find Python to be very straight forward and easy to use. As for the framework to implement the API, I used the Flask web framework. Not really a reason why I chose Flask over Django, just thought it would be easier for rapid development. I used the flask_restful library to implement my REST API to query data from the csv. I only made GET request and not other requests such as POST, UPDATE, DELETE or PUT since this project was only to read from the csv.
 
 ## Steps to run the API from Windows:
 1- Open command prompt at the location of the python script and the csv file.  
