@@ -1,7 +1,9 @@
 # Bell_tech_interview_rest_service
   
 ## Reasons behing the architecture & API choices:
-For this interview project, I decided to go with Python, a coding language of choice as it is one of my favourite. I find Python to be very straight forward and easy to use. As for the framework to implement the API, I used the Flask web framework. Not really a reason why I chose Flask over Django, just thought it would be easier for rapid development. I used the flask_restful library to implement my REST API to query data from the csv. I only made GET request and not other requests such as POST, UPDATE, DELETE or PUT since this project was only to read from the csv.
+For this interview project, I decided to go with Python, a coding language of choice as it is one of my favourite. I find Python to be very straight forward and easy to use. As for the framework to implement the API, I used the Flask web framework. Not really a reason why I chose Flask over Django, just thought it would be easier for rapid development. I used the flask_restful library to implement my REST API to query data from the csv. I only made GET request and not other requests such as POST, UPDATE, DELETE or PUT since this project was only to read from the csv.  
+
+Python version used: 3.9.8. Please make sure that your python has been updated to latest version 3.x or more, or else some things like "encoding" for the csv reader won't work for example.
 
 ## Steps to run the API from Windows:
 1- Open command prompt at the location of the python script and the csv file.  
@@ -23,6 +25,8 @@ For this interview project, I decided to go with Python, a coding language of ch
 9- One page would contain maximum 4 shows listed. If you wish to see other top shows, navigate to page 2 by changing 1 to 2 at the end of the url.
 
 10- You can test with other provider as well.  
+
+11- I also created a test.py script so that you can run it and test it. Make sure to run it after the API has been started. Make sure to install requests by doing "pip install requests".
 
 ## Other comments and messages:  
 For the pagination, I wanted to use Flask built in pagination along with SQLAlchemy. But, since I couldn't make a database and the pagination library only supports for database querying, I wasn't able to use it. Therefore, I came up with my own solution by separating the pages by myself. I added some comments on the code, hope it helps!
