@@ -28,5 +28,3 @@ Python version used: 3.9.8. Please make sure that your python has been updated t
 
 11- I also created a test.py script so that you can run it and test it. Make sure to run it after the API has been started. Make sure to install requests by doing "pip install requests".
 
-## Other comments and messages:  
-For the pagination, I wanted to use Flask built in pagination along with SQLAlchemy. But, since I couldn't make a database and the pagination library only supports for database querying, I wasn't able to use it. Therefore, I came up with my own solution by separating the pages by myself. I added some comments on the code, hope it helps!
