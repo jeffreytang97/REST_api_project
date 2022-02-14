@@ -1,9 +1,4 @@
 # rest_service
-  
-## Reasons behing the architecture & API choices:
-For this project, I decided to go with Python, a coding language of choice as it is one of my favourite. I find Python to be very straight forward and easy to use. As for the framework to implement the API, I used the Flask web framework. 
-
-Python version used: 3.9.8. Please make sure that your python has been updated to latest version 3.x or more, or else some things like "encoding" for the csv reader won't work for example.
 
 ## Steps to run the API from Windows:
 1- Open command prompt at the location of the python script and the csv file.  
