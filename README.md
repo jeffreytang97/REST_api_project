@@ -1,5 +1,7 @@
 # rest_service
 
+Developed a REST service simulation to retrieve the top 10 TV shows by provider from a server (csv file) using pagination technology. 
+
 ## Steps to run the API from Windows:
 1- Open command prompt at the location of the python script and the csv file.  
 
